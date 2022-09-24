@@ -13,7 +13,7 @@
         android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Пока значение отсуствует" />
+        android:text="@string/NoValue" />
 
     <Button
         android:id="@+id/btnRandNumber"
@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:onClick="newNumer"
-        android:text="Генерация случайного числа" />
+        android:text="@string/GenerateNumber" />
 
 </LinearLayout>

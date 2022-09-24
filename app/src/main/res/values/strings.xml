@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FirstAppLect</string>
+    <string name="NoValue">Пока значение отсуствует</string>
+    <string name="GenerateNumber">Генерация случайного числа</string>
 </resources>
