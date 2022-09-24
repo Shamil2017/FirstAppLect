@@ -6,14 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#ABCDEF"
+    android:background="@drawable/randsecond"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/NoValue" />
+        android:shadowColor="#7E1919"
+        android:text="@string/NoValue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnRandNumber"
@@ -21,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:onClick="newNumer"
-        android:text="@string/GenerateNumber" />
+        android:text="@string/GenerateNumber"
+        android:textSize="20sp" />
 
 </LinearLayout>
